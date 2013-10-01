@@ -2,8 +2,12 @@ php-require-test
 ================
 require の動作テスト
 
-まずは普通にindex.phpにアクセスする。
-その後に、./required.php を ./required.php.back などに変更してみる。
-index.phpの挙動が変わっている。
+ディレクトリ構成
+- ./index.php
+- ./required.php
+- ./test/test.php
+- ./test/required.php
 
-require は、親ディレクトリに対象のファイルがある場合にはそちらを優先するっぽい。
+まずは普通にindex.phpにアクセスする。<br>
+その後に、./required.php を ./required.php.back などに変更してみる。<br>
+index.phpの挙動が変わっている。
